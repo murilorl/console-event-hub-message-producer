@@ -8,7 +8,7 @@ namespace ConsoleEventHubMessageProducer
     class Program
     {
         private static EventHubClient eventHubClient;
-        private const string EventHubConnectionString = "Endpoint=sb://mrlima-br.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=7GyzAD7/fTBssF6LYbPKK60CckJZaROACCAGkpDwgtU=";
+        private const string EventHubConnectionString = "Endpoint=sb://mrlima-br.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=****";
         private const string EventHubName = "greetings";
 
         static void Main(string[] args)
